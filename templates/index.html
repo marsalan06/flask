@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Page</title>
+            <body>
+                <h1>
+                    Home Page ! 
+                </h1>
+                <p>My name is home page</p>
+                <p>{{content}}</p>
+                <h1>
+                    python code begins here
+                </h1>
+                {% for x in l%}
+                    <p>{{x}}</p>
+                    {% if x == "ahmed" %}
+                        <p>Hurray its ahmed</p>
+                    {% endif %}
+                {% endfor %}
+
+            </body>
+    </head>
